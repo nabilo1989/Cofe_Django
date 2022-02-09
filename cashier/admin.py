@@ -1,3 +1,4 @@
 from django.contrib import admin
+from cashier.models import Cashier
 
-# Register your models here.
+admin.site.register(Cashier)

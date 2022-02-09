@@ -9,5 +9,6 @@ urlpatterns = [
     path('order/', include('order.urls', namespace='order')),
     path('table/', include('table.urls', namespace='table')),
     path('products/',include('products.urls',namespace='products')),
+    path('category/',include('category.urls',namespace='category')),
 
 ]
